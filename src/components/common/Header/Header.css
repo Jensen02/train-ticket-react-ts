@@ -1,0 +1,25 @@
+h3 {
+  margin: 0;
+  color: #fff;
+}
+.header {
+  position: relative;
+  height: 45px;
+  overflow: hidden;
+  background-color: #00a8bc;
+}
+.header-back, .header-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #fff;
+}
+.header-back {
+  border: 5px solid transparent;
+  border-width: 10px 5px;
+  z-index: 2;
+}
+.header-title {
+  width: 100%;
+  font-size: 20px;
+}
